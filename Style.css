@@ -252,6 +252,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     position: relative;
+    height: 300px;
+    width: 400px;
 }
 
 .card-wrapper::before {
