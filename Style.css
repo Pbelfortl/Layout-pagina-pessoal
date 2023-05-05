@@ -216,6 +216,24 @@ a:hover {
     margin: 2rem;
 }
 
+.cardMe {
+    height: 300px;
+    width: 400px;
+    background-image: url('./home-office.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: blanchedalmond;
+    transition: 0.3s;
+    margin: auto;
+    border-radius: 4px;
+}
+
 .card {
     height: 300px;
     width: 400px;
@@ -252,6 +270,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     position: relative;
+    height: 300px;
+    width: 400px;
 }
 
 .card-wrapper::before {
@@ -302,7 +322,7 @@ a:hover {
 /*FOOTER*/
 
 .footer {
-    height: 60px;
+    height: 30px;
     color: blanchedalmond;
     width: 100%;
     align-items: center;
@@ -311,7 +331,7 @@ a:hover {
     background-color: rgb(0, 20, 69);
     text-indent: 2rem;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-style: italic;
 }
 
