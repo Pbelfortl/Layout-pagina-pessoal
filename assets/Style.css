@@ -120,6 +120,10 @@ a:hover {
 }
 
 .menu {
+    visibility: collapse;
+}
+
+.menu {
     position: absolute;
     top: 28px;
     right: 30px;
